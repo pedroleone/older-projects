@@ -1,0 +1,85 @@
+body {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+.calc-app {
+    width: 400px;
+    height: auto;
+    margin: 100px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+.calc-result {
+    text-align: right;
+    font-size: 40px;
+    border: 2px solid #272727;
+    border-radius: 6px;
+    background-color: #343434;
+    color: #FAFAFA;
+    margin: 20px;
+}
+
+.calc-buttons {
+    margin: 20px;
+}
+
+.calc-buttons button {
+    width: 72px;
+    height: 55px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #F0EEEF;
+    font-size: 25px;
+    font-weight: bold;
+    color: #949494;
+    box-shadow: 0px 3px 0px 0px #FAFAFA, inset -1px -3px 10px 1px #949494;
+}
+
+.calc-buttons button:nth-child(4n+1) {
+    margin-right: 15px;
+}
+
+.calc-buttons button:nth-child(4n+3) {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.calc-buttons .large {
+    width: 168px;
+    
+}
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+
+
+#ce,#ac {
+  background-color: #a72d45;
+  box-shadow: 0px 3px 0px 0px #FAFAFA, inset -1px -3px 10px 1px #671c2a;
+}
+
+/*
+.calc-app span {
+    float: left;
+    margin: 4px;
+    background-color: lightslategrey;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 20%;
+    padding-top: 8px;
+    font-size: 40px;
+    user-select: none;
+}*/

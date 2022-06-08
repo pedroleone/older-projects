@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta property="og:url" content="https://pedroleone.github.io/gerador_npcs/" />
+<meta property="og:image" content="https://pedroleone.github.io/gerador_npcs/img/facebook.jpg" />
+<meta property="og:title" content="Gerador de NPCs" />
+<meta property="og:description" content="Gerador de NPCs instantâneos para sua sessão de RPG" />
+<head>
+<title>Gerador de Personagem Jogador de Dungeon World</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Courgette" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="https://use.fontawesome.com/356d012454.js"></script>
+<link rel="image_src" href="img/facebook.jpg" /link>`
+</head>
+
+<body>
+    <div class="jumbotron" id="jumbo">
+      <div class="container">
+        <h1>Gerador de NPCs</h1>
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active"><a href="#gerador" aria-controls="home" role="tab" data-toggle="tab">Gerador</a></li>
+    <li role="presentation"><a href="#options" aria-controls="options" role="tab" data-toggle="tab">Opções</a></li>
+
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="gerador">
+      <!-- Tab principal do gerador -->
+
+        <div class="col-md-8 col-md-offset-2"><p id="pc"></p></div><div class="col-md-3"></div>
+        <div class="col-md-12">
+          <p><a class="btn btn-default btn-lg" href="#" role="button" id="gerar"><i class="fa fa-refresh" aria-hidden="true"></i>
+ Gerar PC</a> </p>
+
+        <br><a class="btn btn-default btn-lg" href="#" role="button" id="teste"><i class="fa fa-refresh" aria-hidden="true"></i>
+ Teste</a>
+        </div>      
+    </div>
+
+
+
+
+    <div role="tabpanel" class="tab-pane" id="options">
+      <!-- Tab de opções -->
+      
+      <p>Opções aqui<p>
+
+        <div class="form-inline">
+          <label for="sel1">Qual classe gerar? </label>
+          <select class="form-control" id="sel-classe">
+            <option>Qualquer</option>
+          </select>
+        </div>  
+
+      </div>
+
+  </div>
+
+</div>
+
+
+      </div>
+      
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/generator.dwpc.js"></script>
+</body>
+</html>
